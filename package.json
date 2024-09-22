@@ -4,12 +4,14 @@
   "description": "Rep destinado à matéria  de DevOps\r 2314291061 Davi Bueno",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^3.1.7"
   }
 }
